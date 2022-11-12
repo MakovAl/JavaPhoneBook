@@ -1,16 +1,12 @@
-# Eclipse
-.classpath
-.project
-.settings/
-
-# Intellij
-.idea/
 *.iml
-*.iws
-
-# Mac
+.gradle
+/local.properties
 .DS_Store
-
-# Maven
-log/
-target/
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.idea
+gradle
+gradlew*
