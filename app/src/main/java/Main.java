@@ -27,7 +27,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         //Задаются входные данные
-        String pathFile = "C:/Users/sasha/IdeaProjects/Data.txt";
+        String pathFile = "src/src/main/resources/Data.txt";
         User user = new User(1, "user", "89333933333", "TRE");
 
         PhysicalPerson physicalPerson = new PhysicalPerson(2, "physicalPerson", "Ivan", "Ivanov",
@@ -59,12 +59,10 @@ public class Main {
             if (userFromList.getType().equals("physicalPerson")) {
                 PhysicalPerson pp = (PhysicalPerson) userFromList;
                 System.out.println(pp.getUserData());
-            }
-            if (userFromList.getType().equals("legalPerson")) {
+            } else if (userFromList.getType().equals("legalPerson")) {
                 LegalPerson lp = (LegalPerson) userFromList;
                 System.out.println(lp.getUserData());
-            }
-            if (userFromList.getType().equals("user")) {
+            } else if (userFromList.getType().equals("user")) {
                 System.out.println(userFromList.getUserData());
             }
         }
