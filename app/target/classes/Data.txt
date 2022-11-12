@@ -1,3 +1,0 @@
-ID:{1} Type:{user} PhoneNumber:{89333933333} Address:{TRE}
-ID:{2} Type:{physicalPerson} PhoneNumber:{89050321123} Address:{INV} Name:{Ivan} Surname:{Ivanov}
-ID:{3} Type:{legalPerson} PhoneNumber:{89888888888} Address:{ANY} NameOrganization:{All Work World} WorkingHours:{All time} Services:{Any works}
